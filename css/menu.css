@@ -1,0 +1,42 @@
+nav{
+    background-color: rgb(114, 200, 250);
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    width: 33%;
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    color: white;
+    padding: 30px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.menuinfo:hover{
+    border-top: 5px solid #4c8;
+    background-color: rgb(38, 0, 255);
+}
+
+.menuexpe:hover{
+    border-top: 5px solid #4c8;
+    background-color: rgb(47, 0, 255);
+}
+
+.menuform:hover{
+    border-top: 5px solid rgb(68, 204, 193);
+    background-color: rgb(47, 0, 255);
+}
